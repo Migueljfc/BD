@@ -1,0 +1,71 @@
+-- exercicio 5.1
+
+--  a)
+-- π Pno, Fname, Minit, Lname, Ssn ((works_on ⨝ Essn=Ssn employee) ⨝ (works_on ⨝ Pno=Pnumber project))
+
+--  b) 
+-- temp = ρ super (π Ssn (σ Fname='Carlos' ∧ Minit='D' ∧ Lname='Gomes' employee))
+-- employee ⨝ Super_ssn=super.Ssn temp
+
+-- super = π Ssn (σ Fname='Carlos' ∧ Minit='D' ∧ Lname='Gomes' employee)
+-- func = π Fname, Lname, Super_ssn employee
+-- func ⨝ Ssn=Super_ssn super
+
+--  c)
+-- γ Pname; sum(Hours) -> Total (project ⨝ Pnumber=Pno works_on)
+
+--  d)
+-- π Fname, Lname (σ Dno=3 employee) ⨝ σ Hours > 20 works_on ⨝ σ Pname='Aveiro Digital' project
+
+--  e)
+-- π Fname, Lname σ Essn=null ( employee ⟕ Ssn=Essn works_on )
+
+--  f)
+-- γ Dname; avg(Salary) -> AvgSalary (department ⨝ Dnumber=Dno σ Sex='F' employee)
+
+--  g)
+-- σ NumeroDependentes > 2 (γ Fname, Lname; count(Essn) -> NumeroDependentes (π Fname, Lname, Ssn (employee) ⨝ Ssn=Essn dependent))
+
+--  h)
+-- π Fname, Lname, Ssn σ Dependent_name=null ( dependent ⟖ Essn=Ssn (department ⨝ Mgr_ssn=Ssn employee))
+
+--  i)
+-- π Fname, Lname, Address ((employee ⨝ Essn=Ssn works_on ⨝ Pno=Pnumber (σ Plocation = 'Aveiro' project)) ⨝ Dno=Dnumber (σ Dlocation ≠ 'Aveiro' (department ⨝ dept_location)) )
+
+
+
+-- exericio 5.2
+--  a)
+-- σ fornecedor=null (fornecedor ⟕ nif=fornecedor encomenda )
+
+--  b)
+-- π nome, media (produto ⨝ codigo=codProd (γ codProd; avg(unidades) -> media item))
+
+--  c)
+-- γ avg(codProd) -> mediaProdutos (γ numEnc; count(numEnc) -> Numero item)
+
+--  d)
+-- π fornecedor.nome, produto.nome, item.unidades ((fornecedor ⨝  nif=fornecedor encomenda) ⨝ numero=numEnc (produto ⨝ codigo=codProd item))
+
+
+
+-- exercicio 5.3
+
+--  a) 
+-- π nome, numUtente σ numPresc=null (paciente ⟕ prescricao) 
+
+--  b)
+-- γ medico.especialidade; count(numPresc) -> NumeroPrescricoes (prescricao ⨝ numMedico=numSNS medico)
+
+--  c)
+-- γ farmacia.nome; count(numPresc) -> NumeroPrescricoes (prescricao ⨝ farmacia=nome farmacia)
+
+--  d)
+-- π farmaco.numRegFarm, nome (σ numPresc=null (σ numRegFarm=906 (farmaco) ⟕ nome=nomeFarmaco presc_farmaco))
+
+--  e)
+-- γ farmacia; count(numRegFarm) -> NumeroFarmacos (presc_farmaco ⨝ prescricao)
+
+--  f)
+-- π nome (paciente ⨝ σ num > 1 (γ numUtente, numMedico; count(numUtente) -> num prescricao))
+

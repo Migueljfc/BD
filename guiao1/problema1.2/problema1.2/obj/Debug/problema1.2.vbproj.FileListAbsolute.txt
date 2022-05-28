@@ -1,0 +1,15 @@
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.2\problema1.2\bin\Debug\problema1.2.exe.config
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.2\problema1.2\bin\Debug\problema1.2.exe
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.2\problema1.2\bin\Debug\problema1.2.pdb
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.2\problema1.2\bin\Debug\problema1.2.xml
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.2\problema1.2\obj\Debug\problema1.2.vbprojAssemblyReference.cache
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.2\problema1.2\obj\Debug\problema1._2.Form1.resources
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.2\problema1.2\obj\Debug\problema1._2.Resources.resources
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.2\problema1.2\obj\Debug\problema1.2.vbproj.GenerateResource.cache
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.2\problema1.2\obj\Debug\problema1.2.vbproj.CoreCompileInputs.cache
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.2\problema1.2\obj\Debug\problema1.2.exe
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.2\problema1.2\obj\Debug\problema1.2.xml
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.2\problema1.2\obj\Debug\problema1.2.pdb
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.2\problema1.2\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.2\problema1.2\obj\Debug\Interop.WMPLib.dll
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.2\problema1.2\obj\Debug\problema1.2.vbproj.ResolveComReference.cache

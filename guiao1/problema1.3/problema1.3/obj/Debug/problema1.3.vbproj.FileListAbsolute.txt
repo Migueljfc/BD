@@ -1,0 +1,12 @@
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.3\problema1.3\bin\Debug\problema1.3.exe.config
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.3\problema1.3\bin\Debug\problema1.3.exe
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.3\problema1.3\bin\Debug\problema1.3.pdb
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.3\problema1.3\bin\Debug\problema1.3.xml
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.3\problema1.3\obj\Debug\problema1.3.vbprojAssemblyReference.cache
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.3\problema1.3\obj\Debug\problema1._3.Form1.resources
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.3\problema1.3\obj\Debug\problema1._3.Resources.resources
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.3\problema1.3\obj\Debug\problema1.3.vbproj.GenerateResource.cache
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.3\problema1.3\obj\Debug\problema1.3.vbproj.CoreCompileInputs.cache
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.3\problema1.3\obj\Debug\problema1.3.exe
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.3\problema1.3\obj\Debug\problema1.3.xml
+C:\Users\migue\Mega\3-ano\BD\guiao1\problema1.3\problema1.3\obj\Debug\problema1.3.pdb
